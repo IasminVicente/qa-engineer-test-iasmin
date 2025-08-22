@@ -2,7 +2,7 @@
 
 Arquivo: `/Bug/template-bug-report.md`
 
-**Bug:** Tela de adicionar pessoa/participante não carrega ao acessar a URL diretamente
+**Bug:** Tela de adicionar pessoa/participante não esta carregando
 
 **Descrição:**
 
