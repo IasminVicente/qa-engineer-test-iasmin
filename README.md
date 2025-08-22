@@ -94,25 +94,17 @@ A sugestão deve ser descrita de forma **clara, objetiva e com justificativa té
 Clone o repositório **qa-engineer-test**, que contém a estrutura base para a realização da avaliação técnica. Essa estrutura contempla todos os artefatos necessários para a entrega: automação de testes, templates para registro de bugs, propostas de melhoria e documentação dos casos de teste.
 
 ```
-/Automation
-   /cypress
-       /e2e               # Scripts de testes automatizados (end-to-end) em Cypress
-       /fixtures          # Dados de teste utilizados nos scripts
-       /support           # Comandos customizados e configurações auxiliares do Cypress
-   cypress.config.js      # Arquivo de configuração do Cypress
-   package.json           # Gerenciamento de dependências e scripts de execução
-   README.md              # Instruções específicas relacionadas à automação
-
-/bugs
-   template.md            # Template padrão para registro de bugs
-
-/improvements
-   template.md            # Template para sugestão de melhorias no sistema
-
-/test-cases
-   template.md            # Template para documentação dos casos de teste
-
-README.md                 # Arquivo principal com instruções gerais sobre o projeto
+qa-engineer-test-iasmin/
+├── bugs/                   #Contém templates para registro de bugs encontrados durante os testes.
+│   └── bug-report.md
+├── improvements/
+│   └── improvement.md
+├── test-cases/
+│   └── test-cases.md
+├── cypress.config.js
+├── package.json
+├── README.md
+└── npm-debug.log
 
 
 ```
