@@ -96,6 +96,17 @@ qa-engineer-test-iasmin/
 
 ---
 
+## Considerações e Resalvas
+
+Durante a execução da avaliação técnica, algumas observações importantes foram identificadas:
+
+- Existem outros bugs e oportunidades de melhoria no sistema que não foram totalmente explorados nesta entrega.
+- A automação de testes cobre os cenários principais de login e cadastro, mas poderia ser expandida para aumentar a cobertura em fluxos mais complexos.
+- Pelo prazo de entrega, foi priorizado entregar a automação com **qualidade máxima**, garantindo que os testes existentes sejam confiáveis e reprodutíveis.
+- Futuras melhorias poderiam incluir testes adicionais de regressão, validação de fluxos críticos e captura de evidências mais detalhadas.
+
+---
+
 ## Como Executar o Projeto
 
 1. Clonar o repositório:
