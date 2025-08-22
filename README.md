@@ -37,7 +37,7 @@ qa-engineer-test-iasmin/
 ├── cypress.config.js                                       # Configurações do Cypress
 ├── package.json                                            # Dependências e scripts do projeto
 └── README.md                                               # Arquivo de instruções do projeto
-
+```
 ---
 
 ## Funcionalidades Testadas
