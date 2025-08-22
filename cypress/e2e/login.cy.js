@@ -13,6 +13,9 @@ describe('Login', () => {
     cy.contains('span', 'menu').click()
     cy.contains('div', 'iasminvicente2').should('be.visible')
 
+    // Tira screenshot com nome personalizado
+    cy.screenshot('login-sucesso')
+
     cy.url().should('not.include', '/login')
   })
 })

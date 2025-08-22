@@ -5,7 +5,7 @@ Arquivo: `/CasosDeTeste/template-caso-de-teste.md`
 
 | ID | Cenário | Pré-condições | Passos | Resultado Esperado | Resultado Obtido | Prioridade |
 | --- | --- | --- | --- | --- | --- | --- |
-| CT001 | Validar login com credenciais válidas | Usuário possui e-mail e senha válidos cadastrados | 1. Acessar a URL: https://qa.navega.com.vc/login 2. Informar e-mail válido 3. Informar senha válida 4. Clicar no botão Entrar | O sistema deve autenticar o usuário com sucesso e redirecionar para a página inicial do sistema | Aguardando execução | Alta |
+| CT001 | Validar login com credenciais válidas | Usuário possui e-mail e senha válidos cadastrados | 1. Acessar a URL: https://qa.navega.com.vc/login 2. Informar e-mail válido 3. Informar senha válida 4. Clicar no botão Entrar | O sistema deve autenticar o usuário com sucesso e redirecionar para a página inicial do sistema | Sucesso | Alta |
 
 Funcionalidade: Login de Usuário  
 
@@ -17,6 +17,7 @@ Cenário 1: Realizar login com credenciais válidas
     E redirecionar para a página inicial do sistema  
 
 Evidência: 
+![alt text](image-1.png)
 
 ---
 
