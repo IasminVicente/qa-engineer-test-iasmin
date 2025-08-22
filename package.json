@@ -1,0 +1,23 @@
+{
+  "name": "automacao",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "Esta avaliação tem como objetivo medir as habilidades e conhecimentos do(a) candidato(a) à vaga no time de Engenharia de Qualidade, com foco em testes de caixa preta, criação de cenários de teste e automação em ambiente controlado.",
+  "devDependencies": {
+    "cypress": "^14.5.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/navega-com-vc/qa-engineer-test.git"
+  },
+  "bugs": {
+    "url": "https://github.com/navega-com-vc/qa-engineer-test/issues"
+  },
+  "homepage": "https://github.com/navega-com-vc/qa-engineer-test#readme"
+}

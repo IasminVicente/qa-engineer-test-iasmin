@@ -1,0 +1,30 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Users\\iasmi\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'npm@latest'
+1 verbose cli ]
+2 info using npm@3.6.0
+3 info using node@v22.18.0
+4 verbose stack ReferenceError: primordials is not defined
+4 verbose stack     at evalmachine.<anonymous>:44:5
+4 verbose stack     at Object.<anonymous> (C:\Users\iasmi\AppData\Roaming\npm\node_modules\npm\node_modules\cmd-shim\node_modules\graceful-fs\fs.js:11:1)
+4 verbose stack     at Module._compile (node:internal/modules/cjs/loader:1688:14)
+4 verbose stack     at Object..js (node:internal/modules/cjs/loader:1820:10)
+4 verbose stack     at Module.load (node:internal/modules/cjs/loader:1423:32)
+4 verbose stack     at Function._load (node:internal/modules/cjs/loader:1246:12)
+4 verbose stack     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+4 verbose stack     at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+4 verbose stack     at Module.require (node:internal/modules/cjs/loader:1445:12)
+4 verbose stack     at require (node:internal/modules/helpers:135:16)
+5 verbose cwd C:\Users\iasmi\qa-engineer-test-iasmin
+6 error Windows_NT 10.0.22631
+7 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Users\\iasmi\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js" "install" "-g" "npm@latest"
+8 error node v22.18.0
+9 error npm  v3.6.0
+10 error primordials is not defined
+11 error If you need help, you may report this error at:
+11 error     <https://github.com/npm/npm/issues>
+12 verbose exit [ 1, true ]
