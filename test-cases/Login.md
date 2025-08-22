@@ -17,7 +17,7 @@ Cenário 1: Realizar login com credenciais válidas
     E redirecionar para a página inicial do sistema  
 
 Evidência: 
-![alt text](image-1.png)
+![alt text](image.png)
 
 ---
 
@@ -34,4 +34,4 @@ Cenário 2: Tentar realizar login quando o serviço estiver indisponível
     Então o sistema não deve autenticar o usuário exibindo uma mensagem clara como "Serviço temporariamente indisponível, tente novamente mais tarde"  
   
 Evidência: 
-![alt text](image.png)
+![alt text](image-1.png)
