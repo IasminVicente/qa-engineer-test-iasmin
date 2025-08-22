@@ -44,18 +44,16 @@ qa-engineer-test-iasmin/
 
 ### 1. Login
 - Cenário de login com sucesso  
-  **Evidência:**  
-  ![alt text](image.png)
 - Cenário de login com dados inválidos
-- Cenário de exceção (senha incorreta, campos em branco)  
+- Cenário de exceção (senha incorreta, campos em branco) 
+  **Evidência:**   
 - Captura de evidências via Cypress (`cypress/screenshots/login-sucesso.png`)
 
 ### 2. Cadastro de Participante
 - Cenário de cadastro com sucesso  
-  **Evidência:**  
-  ![alt text](image-2.png)
 - Cenário de campos obrigatórios não preenchidos
 - Cenário de e-mail já existente
+  **Evidência:**  
 - Evidências de cada cenário incluídas na pasta `test-cases/evidence/cadastro/`
 
 ---
