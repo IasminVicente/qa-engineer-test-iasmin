@@ -15,27 +15,28 @@ O projeto simula cenários reais de teste em um sistema web, permitindo que seja
 
 ## Estrutura do Repositório
 
+```plaintext
 qa-engineer-test-iasmin/
-├── bugs/ # Templates e relatórios de bugs encontrados
-│ └── ID_BUG-002.md
-├── improvements/ # Propostas de melhoria do sistema
-│ └── PM-002.md
-├── test-cases/ # Casos de teste documentados
-│ ├── Login.md
-│ ├── Cadastro.md
-│ └── evidence/ # Evidências dos testes (prints)
-│ ├── login/
-│ │ └── image-1.png
-│ └── cadastro/
-│ └── image-2.png
-├── cypress/ # Automação de testes
-│ ├── e2e/
-│ │ └── login.cy.js
-│ ├── fixtures/
-│ └── screenshots/ # Screenshots geradas pelos testes
-├── cypress.config.js # Configurações do Cypress
-├── package.json # Dependências e scripts do projeto
-└── README.md # Arquivo de instruções do projeto
+├── bugs/                                                   # Templates e relatórios de bugs encontrados
+│   └── ID_BUG-002.md
+├── improvements/                                           # Propostas de melhoria do sistema
+│   └── PM-002.md
+├── test-cases/                                             # Casos de teste documentados
+│   ├── Login.md
+│   ├── Cadastro.md
+│   └── evidence/                                           # Evidências dos testes (prints)
+│       ├── login/
+│       │   └── image-1.png
+│       └── cadastro/
+│           └── image-2.png
+├── cypress/                                                # Automação de testes
+│   ├── e2e/
+│   │   └── login.cy.js
+│   ├── fixtures/
+│   └── screenshots/                                        # Screenshots geradas pelos testes
+├── cypress.config.js                                       # Configurações do Cypress
+├── package.json                                            # Dependências e scripts do projeto
+└── README.md                                               # Arquivo de instruções do projeto
 
 ---
 
@@ -44,7 +45,7 @@ qa-engineer-test-iasmin/
 ### 1. Login
 - Cenário de login com sucesso  
   **Evidência:**  
-  ![Login realizado com sucesso](test-cases/evidence/login/image-1.png)
+  ![alt text](image.png)
 - Cenário de login com dados inválidos
 - Cenário de exceção (senha incorreta, campos em branco)  
 - Captura de evidências via Cypress (`cypress/screenshots/login-sucesso.png`)
@@ -52,7 +53,7 @@ qa-engineer-test-iasmin/
 ### 2. Cadastro de Participante
 - Cenário de cadastro com sucesso  
   **Evidência:**  
-  ![Cadastro realizado com sucesso](test-cases/evidence/cadastro/image-2.png)
+  ![alt text](image-2.png)
 - Cenário de campos obrigatórios não preenchidos
 - Cenário de e-mail já existente
 - Evidências de cada cenário incluídas na pasta `test-cases/evidence/cadastro/`
